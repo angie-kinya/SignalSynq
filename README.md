@@ -1,30 +1,30 @@
 # SignalSynq
 This repository contains the code for building an AI-powered Smart Traffic Management System that detects vehicles, analyzes traffic flow, and optimizes signal timing.
 
-# Smart Traffic Management System
+## Smart Traffic Management System
 
-## Project Description
+### Project Description
 AI-powered system for real-time traffic monitoring and signal optimization.
 
-## Features
+### Features
 - Real-time vehicle detection using YOLO
 - Dynamic traffic signal control
 - Route recommendations
 - Web-based dashboard
 
-## Installation
+### Installation
 1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
+2. Install dependencies: `pip freeze > requirements.txt` then `pip install -r requirements.txt`
 3. Download YOLO weights file (yolov4.weights)
 
-## Usage
+### Usage
 1. Run the application: `python app.py`
 2. Access the web interface at `http://localhost:5000`
 
-## Results
+### Results
 Precision: 92%, Recall: 89%, F1-score: 90%
 
-## 7. Future Enhancements
+### Future Enhancements
 
 1. **Advanced Features**:
    - Emergency vehicle detection and priority signaling
